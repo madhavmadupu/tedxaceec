@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import PaymentCTA from "../components/PaymentCTA";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
