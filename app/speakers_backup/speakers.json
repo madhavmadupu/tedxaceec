@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Sandeep Gudibanda",
+    "designation": "CEO of HealthPIX",
+    "description": "CEO of HealthPIX.",
+    "image": "/profiles/org/org_praneetha.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sandeep Gudibanda",
+    "designation": "CEO of HealthPIX",
+    "description": "CEO of HealthPIX.",
+    "image": "/profiles/org/org_praneetha.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sandeep Gudibanda",
+    "designation": "CEO of HealthPIX",
+    "description": "CEO of HealthPIX.",
+    "image": "/profiles/org/org_praneetha.jpg"
+  }
+]

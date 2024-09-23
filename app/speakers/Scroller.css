@@ -1,0 +1,27 @@
+.scroller {
+  -webkit-mask: linear-gradient(180deg, transparent, white 20%, white 80%, transparent);
+  mask: linear-gradient(180deg, transparent, white 20%, white 80%, transparent);
+  position: relative;
+}
+
+.scroller__inner {
+  animation: scroll 50s linear infinite;
+  transition: animation-play-state 2s ease;
+}
+
+.scroller.paused .scroller__inner {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+html {
+  color-scheme: dark;
+}

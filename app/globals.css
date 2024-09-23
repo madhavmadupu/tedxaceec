@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: white;
+  background-color: black;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  font-size: 16px;
+  overscroll-behavior-y: none; /* Prevents the "bounce" effect on touch devices */
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+}
+
+/* Optional: For smoother scrolling experience, consider adding padding or using a JavaScript library */
+
+.dignitaries {
+  box-shadow: 0 0 60px #ffffff50;
+}

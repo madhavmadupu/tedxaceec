@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Sandeep Gudibanda",
+    "designation": "CEO of HealthPIX",
+    "description": "CEO of HealthPIX.",
+    "image": "/speakers/SandeepGudibanda.png"
+  },
+  {
+    "id": 2,
+    "name": "Bhaskar Reddy Vakka",
+    "designation": "COO of Star health",
+    "description": "COO of Star health.",
+    "image": "/speakers/BhaskarReddyVakka.png"
+  },
+  {
+    "id": 3,
+    "name": "Abhimanyu Saxena",
+    "designation": "Sports Anchor",
+    "description": "Sports Anchor.",
+    "image": "/speakers/AbhimanyuSaxena.png"
+  },
+  {
+    "id": 4,
+    "name": "Midhula",
+    "designation": "Mivi Co Founder",
+    "description": "Mivi Co Founder.",
+    "image": "/speakers/Midhula.png"
+  }
+]

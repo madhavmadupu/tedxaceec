@@ -1,0 +1,160 @@
+{
+    "org": [
+      {
+        "name": "Sri Shivani Bhavya",
+        "role": "Co-organiser",
+        "image": "/profiles/org/org_shivani.jpg"
+      },
+      {
+        "name": "Praneetha",
+        "role": "Organiser",
+        "image": "/profiles/org/org_praneetha.jpg"
+      },
+      {
+        "name": "Jayanth",
+        "role": "Co-organiser",
+        "image": "/profiles/org/org_jayanth.jpg"
+      }
+    ],
+    "web": [
+      {
+        "name": "Madhav Madupu",
+        "role": "Co-lead",
+        "image": "/profiles/web/web_madhav.jpg"
+      },
+      {
+        "name": "Tarun Vuppala",
+        "role": "Lead",
+        "image": "/profiles/web/web_tarun.jpg"
+      },
+      {
+        "name": "Swadeep",
+        "role": "Member",
+        "image": "/profiles/web/web_swadeep.jpg"
+      }
+    ],
+    "colab": [
+      {
+        "name": "Varun",
+        "role": "Co-lead",
+        "image": "/profiles/colab/colab_varun.jpg"
+      },
+      {
+        "name": "Rohit",
+        "role": "Lead",
+        "image": "/profiles/colab/colab_rohit.jpg"
+      },
+      {
+        "name": "Smaran",
+        "role": "Member",
+        "image": "/profiles/colab/colab_smaran.jpg"
+      },
+      {
+        "name": "Ronak",
+        "role": "Member",
+        "image": "/profiles/colab/colab_ronak.jpg"
+      },
+      {
+        "name": "Tharuni",
+        "role": "Member",
+        "image": "/profiles/colab/colab_tharuni.jpg"
+      },
+      {
+        "name": "Vinay",
+        "role": "Member",
+        "image": "/profiles/colab/colab_vinay.jpg"
+      }
+    ],
+    "cont": [
+      {
+        "name": "Abhishek",
+        "role": "Member",
+        "image": "/profiles/cont/cont_abhishek.jpg"
+      },
+      {
+        "name": "Rishi Nande",
+        "role": "Lead",
+        "image": "/profiles/cont/cont_rishi.jpg"
+      },
+      {
+        "name": "Akhira Nandan",
+        "role": "Member",
+        "image": "/profiles/cont/cont_akhira.jpg"
+      }
+    ],
+    "event": [
+      {
+        "name": "Anushka",
+        "role": "Co-lead",
+        "image": "/profiles/event/event_anushka.jpg"
+      },
+      {
+        "name": "Shreyas",
+        "role": "Lead",
+        "image": "/profiles/event/event_shreyas.jpg"
+      },
+      {
+        "name": "Grishitha",
+        "role": "Member",
+        "image": "/profiles/event/event_grishitha.jpg"
+      },
+      {
+        "name": "Chandana",
+        "role": "Member",
+        "image": "/profiles/event/event_chandana.jpg"
+      },
+      {
+        "name": "Hemanth",
+        "role": "Member",
+        "image": "/profiles/event/event_hemanth.jpg"
+      },
+      {
+        "name": "Minnu",
+        "role": "Member",
+        "image": "/profiles/event/event_minnu.jpg"
+      },
+      {
+        "name": "Sharon",
+        "role": "Member",
+        "image": "/profiles/event/event_sharon.jpg"
+      },
+      {
+        "name": "Sumanth",
+        "role": "Member",
+        "image": "/profiles/event/event_sumanth.jpg"
+      },
+      {
+        "name": "Yogitha",
+        "role": "Member",
+        "image": "/profiles/event/event_yogitha.jpg"
+      }
+    ],
+    "log": [
+      {
+        "name": "Joel",
+        "role": "Co-lead",
+        "image": "/profiles/log/log_joel.jpg"
+      },
+      {
+        "name": "Harshini",
+        "role": "Lead",
+        "image": "/profiles/log/log_harshini.jpg"
+      },
+      {
+        "name": "Karthik",
+        "role": "Lead",
+        "image": "/profiles/log/log_karthik.jpg"
+      },
+      {
+        "name": "Lohit",
+        "role": "Member",
+        "image": "/profiles/log/log_lohit.jpg"
+      },
+      {
+        "name": "Ruchika",
+        "role": "Member",
+        "image": "/profiles/log/log_ruchika.jpg"
+      }
+    ]
+  }
+  
