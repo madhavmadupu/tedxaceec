@@ -54,5 +54,12 @@
     "designation": "Productivity Coach",
     "description": "Productivity Coach",
     "image": "/speakers/FahshamFarook.png"
+  },
+  {
+    "id": 9,
+    "name": "Shagun Segan",
+    "designation": "Social Media Influencer",
+    "description": "Social Media Influencer",
+    "image": "/speakers/ShagunSegan.png"
   }
 ]
