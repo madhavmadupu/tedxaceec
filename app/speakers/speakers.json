@@ -36,23 +36,23 @@
   },
   {
     "id": 6,
-    "name": "Dr. Aruna Karla",
-    "designation": "Direcor-Obstetrics & Gynaecology CK Birla Hospital",
-    "description": "Direcor-Obstetrics & Gynaecology CK Birla Hospital",
-    "image": "/speakers/ArunaKarla.jpg"
-  },
-  {
-    "id": 7,
     "name": "Sangeetha Kumar",
     "designation": "Corporate Trainer, Author",
     "description": "Corporate Trainer, Author",
     "image": "/speakers/SangeethaKumar.jpg"
   },
   {
+    "id": 7,
+    "name": "Dr. Aruna Karla",
+    "designation": "Direcor-Obstetrics & Gynaecology CK Birla Hospital",
+    "description": "Direcor-Obstetrics & Gynaecology CK Birla Hospital",
+    "image": "/speakers/ArunaKarla.jpg"
+  },
+  {
     "id": 8,
     "name": "Fahsham Farook",
-    "designation": "Productive Coach",
-    "description": "Productive Coach",
+    "designation": "Productivity Coach",
+    "description": "Productivity Coach",
     "image": "/speakers/FahshamFarook.png"
   }
 ]

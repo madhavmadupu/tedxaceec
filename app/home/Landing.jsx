@@ -6,6 +6,7 @@ import AboutUs from "./AboutUs";
 import Benifits from "./Benifits";
 import Dignitaries from "./Dignitaries";
 import HeroNew from "./HeroNew"
+import AboutACE from "./AboutACE"
 
 const Landing = () => {
   return (
@@ -15,6 +16,7 @@ const Landing = () => {
       <Dignitaries />
       <ThemeSection />
       <AboutUs />
+      <AboutACE />
       <Benifits />
       <Venue />
     </div>
