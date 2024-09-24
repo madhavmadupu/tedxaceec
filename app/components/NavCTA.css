@@ -39,7 +39,7 @@
 }
 
 .navbutton:hover {
-  color: var(--btn-color);
+  color: black;
   background-color: var(--glow-color);
   box-shadow:
     0 0 1em 0.25em var(--glow-color),

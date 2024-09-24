@@ -1,7 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Link from "next/link";
-import KnowMore from "../components/KnowMore";
 
 const ThemeSection = () => {
   return (
@@ -11,7 +9,7 @@ const ThemeSection = () => {
         <Image src={"/dude.svg"} alt={"dude"} width={400} height={400} />
         <div className="flex flex-col justify-center items-start gap-[2rem] max-w-lg">
           <h1 className="text-4xl lg:text-6xl font-bold text-center md:text-left text-balance">
-            Uturn - Pivotal Points in Our Life
+            UTurn - Pivotal Moments In Life
           </h1>
           
         </div>
