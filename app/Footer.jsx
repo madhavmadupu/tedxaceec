@@ -28,15 +28,15 @@ const Footer = () => {
           <div className="flex flex-col gap-[1rem]">
             <h3 className="text-red-500">Programs & Initiatives</h3>
             <div className="flex flex-col gap-[0.5rem]">
-              <p>TEDX</p>
-              <p>TED Follows</p>
-              <p>TED Ed</p>
-              <p>TED Translators</p>
-              <p>TED Institute</p>
-              <p>The Audacious Project</p>
-              <p>TED@work</p>
-              <p>TED Speakers Bureau</p>
-              <p>TED Courses</p>
+              <Link href={"https://www.ted.com/about/programs-initiatives/tedx-program"}>TEDX</Link>
+              <Link href={"https://en.wikipedia.org/wiki/Ted_Follows"}>TED Follows</Link>
+              <Link href={"https://ed.ted.com/"}>TED Ed</Link>
+              <Link href={"https://www.ted.com/about/programs-initiatives/ted-translators"}>TED Translators</Link>
+              <Link href={"https://www.ted.com/about/programs-initiatives/ted-institute"}>TED Institute</Link>
+              <Link href={"https://www.audaciousproject.org//"}>The Audacious Project</Link>
+              <Link href={"https://tedatwork.ted.com/"}>TED@work</Link>
+              <Link href={"https://www.ted.com/speakers"}>TED Speakers Bureau</Link>
+              <Link href={"https://courses.ted.com/"}>TED Courses</Link>
             </div>
           </div>
 
@@ -67,19 +67,6 @@ const Footer = () => {
               <h3 className="text-red-500">Our Community</h3>
               <div className="flex flex-col gap-[0.5rem]">
                 <Link
-                  href={"https://x.com/tedx"}
-                  className="flex flex-row items-center"
-                >
-                  <Image
-                    src={"/twitter.svg"}
-                    alt="twitter"
-                    width={16}
-                    height={16}
-                    className="mr-[0.3rem]"
-                  />
-                  Twitter
-                </Link>
-                <Link
                   href={"https://www.instagram.com/tedxaceengineeringcollege/"}
                   className="flex flex-row items-center"
                 >
@@ -91,19 +78,6 @@ const Footer = () => {
                     className="mr-[0.3rem]"
                   />
                   Instagram
-                </Link>
-                <Link
-                  href={"https://www.youtube.com/user/tedxtalks"}
-                  className="flex flex-row items-center"
-                >
-                  <Image
-                    src={"/youtube.svg"}
-                    alt="youtube"
-                    width={16}
-                    height={16}
-                    className="mr-[0.3rem]"
-                  />
-                  Youtube
                 </Link>
                 <Link
                   href={"https://www.linkedin.com/showcase/tedxofficial/"}

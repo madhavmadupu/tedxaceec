@@ -4,62 +4,33 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
 const page = () => {
-  const ticketPrice = 350; // Example ticket price
-
   return (
-    <div className="h-screen flex flex-col lg:flex-row justify-center items-center w-full gap-[4rem] p-[1rem]">
-      {/* Tickets */}
-      <Image
-        src={"/tickets.svg"}
-        alt="tickets"
-        width={500}
-        height={500}
-        draggable={false}
-      />
+    <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center w-full gap-[2rem] p-[1rem] pt-[7rem] lg:gap-[4rem]">
+      {/* Tickets Image */}
+      <div className="w-full max-w-[500px] lg:w-1/2 flex justify-center">
+        <Image
+          src="/tickets.svg"
+          alt="tickets"
+          width={500}
+          height={500}
+          draggable={false}
+          className="w-full h-auto"
+        />
+      </div>
 
-      {/* Details */}
-      <div className="w-full lg:max-w-lg">
+      {/* Details Section */}
+      <div className="w-full lg:max-w-lg lg:w-1/2">
         <div className="flex flex-col justify-center items-center gap-[1rem]">
-          {/* <h1 className="text-2xl font-black">Registration Details</h1>
-          <p className="text-xl font-semibold">
-            Ticket Price: Rs.{ticketPrice}/-
-          </p>
-
-          <form
-            action=""
-            method="post"
-            className="flex flex-col gap-[1rem] w-full justify-center items-center"
-          >
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Name"
-              className="bg-transparent border border-red-500 p-[1rem] rounded-[1rem] font-black w-full"
-            />
-            <input
-              type="text"
-              name="email"
-              id="email"
-              placeholder="Email"
-              className="bg-transparent border border-red-500 p-[1rem] rounded-[1rem] font-black w-full"
-            />
-            <input
-              type="number"
-              name="Phone"
-              id="Phone"
-              placeholder="Phone"
-              className="bg-transparent border border-red-500 p-[1rem] rounded-[1rem] font-black w-full"
-            />
-            <PaymentCTA />
-          </form> */}
-
-          <h1 className="font-black text-3xl">Tickets are coming soon!</h1>
-          <p className="text-center">
+          <h1 className="font-black text-2xl md:text-3xl text-center">
+            Tickets are coming soon!
+          </h1>
+          <p className="text-center text-sm md:text-base px-4">
             Follow us on Instagram to be the first to grab yours before they
             sell out. Don&apos;t miss out when they go live.
           </p>
-          <div className="flex flex-row h-fit gap-[1rem]">
+
+          {/* Social Links */}
+          <div className="flex flex-row h-fit gap-[1rem] w-full px-4 justify-center">
             <Link
               href={
                 "https://www.linkedin.com/company/tedx-ace-engineering-college/"
@@ -77,18 +48,23 @@ const page = () => {
               <FaInstagram /> Instagram
             </Link>
           </div>
+
+          {/* QR Code */}
           <Link
             href={
               "https://www.instagram.com/tedxaceengineeringcollege?igsh=NGZzeWxxNHYyZjNh"
             }
           >
-            <Image
-              src={"/insta_qr.png"}
-              alt="insta_qr"
-              width={300}
-              height={300}
-              draggable={false}
-            />
+            <div className="w-full max-w-[500px] flex justify-center">
+              <Image
+                src="/insta_qr.png"
+                alt="insta_qr"
+                width={500}
+                height={500}
+                draggable={false}
+                className="w-full h-auto lg:short:hidden lg:short:gap-[1rem] overflow-y-auto"
+              />
+            </div>
           </Link>
         </div>
       </div>

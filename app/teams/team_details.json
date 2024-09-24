@@ -18,12 +18,12 @@
     ],
     "web": [
       {
-        "name": "Madhav Madupu",
+        "name": "Madhav",
         "role": "Co-lead",
         "image": "/profiles/web/web_madhav.jpg"
       },
       {
-        "name": "Tarun Vuppala",
+        "name": "Tarun",
         "role": "Lead",
         "image": "/profiles/web/web_tarun.jpg"
       },
@@ -72,7 +72,7 @@
         "image": "/profiles/cont/cont_abhishek.jpg"
       },
       {
-        "name": "Rishi Nande",
+        "name": "Rishi",
         "role": "Lead",
         "image": "/profiles/cont/cont_rishi.jpg"
       },
@@ -141,7 +141,7 @@
         "image": "/profiles/log/log_harshini.jpg"
       },
       {
-        "name": "Karthik",
+        "name": "Shiva Karthik",
         "role": "Lead",
         "image": "/profiles/log/log_karthik.jpg"
       },
