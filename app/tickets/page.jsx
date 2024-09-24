@@ -1,13 +1,17 @@
+"use client"
 import React from "react";
 import Image from "next/image";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
+import PaymentCTA from '../components/PaymentCTA';
 
 const page = () => {
+  const ticketPrice = 450;
+
   return (
     <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center w-full gap-[2rem] p-[1rem] pt-[7rem] lg:gap-[4rem]">
       {/* Tickets Image */}
-      <div className="w-full max-w-[500px] lg:w-1/2 flex justify-center">
+      <div className="w-full max-w-[500px] lg:w-1/2 flex com-center">
         <Image
           src="/tickets.svg"
           alt="tickets"
@@ -21,12 +25,16 @@ const page = () => {
       {/* Details Section */}
       <div className="w-full lg:max-w-lg lg:w-1/2">
         <div className="flex flex-col justify-center items-center gap-[1rem]">
-          <h1 className="font-black text-2xl md:text-3xl text-center">
-            Tickets are coming soon!
+          <h1 className="font-black text-2xl md:text-3xl text-center mb-4">
+            Tickets are out now...Grab them ASAP!!
           </h1>
-          <p className="text-center text-sm md:text-base px-4">
-            Follow us on Instagram to be the first to grab yours before they
-            sell out. Don&apos;t miss out when they go live.
+          <h2 className="text-2xl font-black">Registration Details</h2>
+          <p className="text-xl font-semibold">
+            Ticket Price: Rs. {ticketPrice}/-
+          </p>
+          <PaymentCTA />
+          <p className="text-justify text-sm md:text-base px-4">
+            Follow us on our socials to get updated.
           </p>
 
           {/* Social Links */}
@@ -48,24 +56,6 @@ const page = () => {
               <FaInstagram /> Instagram
             </Link>
           </div>
-
-          {/* QR Code */}
-          <Link
-            href={
-              "https://www.instagram.com/tedxaceengineeringcollege?igsh=NGZzeWxxNHYyZjNh"
-            }
-          >
-            <div className="w-full max-w-[500px] flex justify-center">
-              <Image
-                src="/insta_qr.png"
-                alt="insta_qr"
-                width={500}
-                height={500}
-                draggable={false}
-                className="w-full h-auto lg:short:hidden lg:short:gap-[1rem] overflow-y-auto"
-              />
-            </div>
-          </Link>
         </div>
       </div>
     </div>
