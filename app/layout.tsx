@@ -7,8 +7,15 @@ import Footer from "./Footer"
 const lexend_deca = Lexend_Deca({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "TEDXACEEC",
-  description: "Ideas worth spreading.",
+  metadataBase:new URL("https://tedx.aceec.ac.in"),
+  keywords:['TEDxACEEC','tedxaceec','tedxace','TEDxACE','TEDx ACE','tedx ace','TEDx ACEEC','tedx aceec','ACE TEDX','ace tedx','ted ace','tedx ace','ted','ace','aceec','ted aceec','ted ace','ace engineering college','ace engg clg','Ace engineering college','Ace Engineering College','ACE','Ace'],
+  title:{
+    default:"TEDxACEEC",
+    template:"%s | TEDxACEEC"
+  },
+  openGraph:{
+    description:"Ideas worth spreading. Independently organised TedX event by ACE Engineering College.",
+  }
 };
 
 
