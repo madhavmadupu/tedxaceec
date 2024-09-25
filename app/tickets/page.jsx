@@ -6,7 +6,7 @@ import Link from "next/link";
 import PaymentCTA from '../components/PaymentCTA';
 
 const page = () => {
-  const ticketPrice = 450;
+  const ticketPrice = 350;
 
   return (
     <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center w-full gap-[2rem] p-[1rem] pt-[7rem] lg:gap-[4rem]">
@@ -26,7 +26,7 @@ const page = () => {
       <div className="w-full lg:max-w-lg lg:w-1/2">
         <div className="flex flex-col justify-center items-center gap-[1rem]">
           <h1 className="font-black text-2xl md:text-3xl text-center mb-4">
-            Tickets are out now...Grab them ASAP!!
+            Tickets are out now...Seats are limited.
           </h1>
           <h2 className="text-2xl font-black">Registration Details</h2>
           <p className="text-xl font-semibold">
