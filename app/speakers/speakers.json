@@ -8,7 +8,7 @@
   },
   {
     "id": 2,
-    "name": "Dr. Aruna Karla",
+    "name": "Dr. Aruna Kalra",
     "designation": "Direcor-Obstetrics & Gynaecology CK Birla Hospital",
     "description": "Direcor-Obstetrics & Gynaecology CK Birla Hospital",
     "image": "/speakers/ArunaKarla.jpg"
@@ -19,6 +19,13 @@
     "designation": "CEO of HealthPIX",
     "description": "CEO of HealthPIX.",
     "image": "/speakers/SandeepGudibanda.png"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Padmini Panigrahi",
+    "designation": "Founder Koshala Group | Founder Koshala Darpan(NGO) | Philanthropist",
+    "description": "Founder Koshala Group | Founder Koshala Darpan(NGO) | Philanthropist.",
+    "image": "/speakers/PadminiPanigrahi.png"
   },
   {
     "id": 4,

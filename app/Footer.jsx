@@ -127,7 +127,7 @@ const Footer = () => {
                 </Link>
 
                 <div className="flex flex-col gap-[1rem]">
-                  <p className="text-red-500">Co-organizers</p>
+                  <p className="text-red-500">Organizers</p>
                   <div>
                     <p className="font-black">Praneetha</p>
                     <p>+91 9030790171</p>

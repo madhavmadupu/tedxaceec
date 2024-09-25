@@ -29,9 +29,7 @@ const page = () => {
             Tickets are out now...Seats are limited.
           </h1>
           <h2 className="text-2xl font-black">Registration Details</h2>
-          <p className="text-xl font-semibold">
-            Ticket Price: Rs. {ticketPrice}/-
-          </p>
+          <p className="text-xl font-semibold">Ticket Price: Rs. {ticketPrice}/- <span className="shadow-lg font-bold text-green-400">(Lunch Included)</span></p>
           <PaymentCTA />
           <p className="text-justify text-sm md:text-base px-4">
             Follow us on our socials to get updated.

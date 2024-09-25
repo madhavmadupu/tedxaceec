@@ -1,0 +1,26 @@
+{
+    "speakers": [
+      {
+        "name": "Abhimanyu Saxena",
+        "role": "Co-Founder, Scaler",
+        "image": "/speakers/AbhimanyuSaxena.png",
+        "alt": "Abhimanyu Saxena",
+        "link": "/speakers"
+      },
+      {
+        "name": "Dr. Aruna Kalra",
+        "role": "Director-Obstetrics & Gynaecology, CK Birla Hospital",
+        "image": "/speakers/ArunaKarla.jpg",
+        "alt": "Dr. Aruna Karla",
+        "link": "/speakers"
+      },
+      {
+        "name": "Sandeep Gudibanda",
+        "role": "CEO, HealthPIX",
+        "image": "/speakers/SandeepGudibanda.png",
+        "alt": "Sandeep Gudibanda",
+        "link": "/speakers"
+      }
+    ]
+  }
+  
