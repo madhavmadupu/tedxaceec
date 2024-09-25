@@ -2,7 +2,7 @@
     "org": [
       {
         "name": "Sri Shivani Bhavya",
-        "role": "Co-organiser",
+        "role": "Co-Organiser",
         "image": "/profiles/org/org_shivani.jpg"
       },
       {
@@ -12,14 +12,14 @@
       },
       {
         "name": "Jayanth",
-        "role": "Co-organiser",
+        "role": "Co-Organiser",
         "image": "/profiles/org/org_jayanth.jpg"
       }
     ],
     "web": [
       {
         "name": "Madhav",
-        "role": "Co-lead",
+        "role": "Co-Lead",
         "image": "/profiles/web/web_madhav.jpg"
       },
       {
@@ -36,7 +36,7 @@
     "colab": [
       {
         "name": "Varun",
-        "role": "Co-lead",
+        "role": "Co-Lead",
         "image": "/profiles/colab/colab_varun.jpg"
       },
       {
@@ -85,7 +85,7 @@
     "event": [
       {
         "name": "Anushka",
-        "role": "Co-lead",
+        "role": "Co-Lead",
         "image": "/profiles/event/event_anushka.jpg"
       },
       {
@@ -107,7 +107,7 @@
     "log": [
       {
         "name": "Joel",
-        "role": "Co-lead",
+        "role": "Co-Lead",
         "image": "/profiles/log/log_joel.jpg"
       },
       {
