@@ -9,36 +9,36 @@
   {
     "id": 2,
     "name": "Dr. Aruna Kalra",
-    "designation": "Direcor-Obstetrics & Gynaecology CK Birla Hospital",
-    "description": "Direcor-Obstetrics & Gynaecology CK Birla Hospital",
+    "designation": "Director of Obstetrics & Gynaecology, CK Birla Hospital",
+    "description": "Director of Obstetrics & Gynaecology, CK Birla Hospital",
     "image": "/speakers/ArunaKarla.jpg"
   },
   {
     "id": 3,
     "name": "Sandeep Gudibanda",
-    "designation": "CEO of HealthPIX",
-    "description": "CEO of HealthPIX.",
+    "designation": "CEO, HealthPIX",
+    "description": "CEO, HealthPIX.",
     "image": "/speakers/SandeepGudibanda.png"
   },
   {
     "id": 3,
     "name": "Dr. Padmini Panigrahi",
-    "designation": "Founder Koshala Group | Founder Koshala Darpan(NGO) | Philanthropist",
-    "description": "Founder Koshala Group | Founder Koshala Darpan(NGO) | Philanthropist.",
+    "designation": "Founder, Koshala Group, Koshala Darpan(NGO), Philanthropist",
+    "description": "Founder, Koshala Group, Koshala Darpan(NGO), Philanthropist",
     "image": "/speakers/PadminiPanigrahi.png"
   },
   {
     "id": 4,
     "name": "Bhaskar Reddy Vakka",
-    "designation": "COO of Star health",
-    "description": "COO of Star health.",
+    "designation": "COO, Star health",
+    "description": "COO, Star health.",
     "image": "/speakers/BhaskarReddyVakka.png"
   },
   {
     "id": 5,
     "name": "Vindhya Vishaka",
-    "designation": "Sports Presenter, IPL Commentator",
-    "description": "Sports Presenter, IPL Commentator",
+    "designation": "TV Anchor, IPL Commentator",
+    "description": "TV Anchor, IPL Commentator",
     "image": "/speakers/VindyaVishaka.png"
   },
   {
