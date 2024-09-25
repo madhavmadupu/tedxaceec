@@ -54,7 +54,7 @@ const Dignitaries = () => {
             </div>
           </div>
         </div>
-        <Link href={"/speakers"} className="flex flex-row items-center  gap-[4rem] font-black border  p-[1rem] rounded-md text-center bg-transparent text-white hover:bg-white hover:text-black px-[3rem]">
+        <Link href={"/speakers"} className="flex flex-row items-center  gap-[4rem] font-black border border-red-500  p-[1rem] rounded-md text-center bg-transparent text-2xl hover:bg-red-500 px-[3rem]">
           More <FaArrowCircleRight/>
         </Link>
       </div>
