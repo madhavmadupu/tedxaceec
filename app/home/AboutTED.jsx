@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="flex items-center justify-center w-full bg-black text-white py-12 gap-[150px]">
+    <div className="flex flex-col lg:flex-row items-center justify-center w-full bg-black text-white py-12 gap-[150px]">
       <div className="flex flex-col items-start justify-center w-full max-w-3xl p-6 text-left">
         <div className="flex items-center mb-4">
           {/* Icon */}
