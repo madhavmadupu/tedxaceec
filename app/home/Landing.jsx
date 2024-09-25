@@ -1,9 +1,9 @@
 import React from "react";
-import HeroSection from "./HeroSection";
+// import HeroSection from "./HeroSection";
 import ThemeSection from "./ThemeSection";
 import Venue from "./Venue";
 import AboutTED from "./AboutTED";
-import Benifits from "./Benifits";
+// import Benifits from "./Benifits";
 import Dignitaries from "./Dignitaries";
 import HeroNew from "./HeroNew"
 import AboutACE from "./AboutACE"
@@ -17,7 +17,7 @@ const Landing = () => {
       <ThemeSection />
       <AboutTED />
       <AboutACE />
-      <Benifits />
+      {/* <Benifits /> */}
       <Venue />
     </div>
   );

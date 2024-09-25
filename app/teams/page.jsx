@@ -33,7 +33,7 @@ const Page = () => {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center px-[1rem] py-[10rem] gap-[8rem]">
       <TeamSection title="Organisers" members={teamDetails.org} />
-      <TeamSection title="Webdev Team" members={teamDetails.web} />
+      <TeamSection title="Web Development Team" members={teamDetails.web} />
       <TeamSection title="Collaboration Team" members={teamDetails.colab} />
       <TeamSection title="Content & Design Team" members={teamDetails.cont} />
       <TeamSection title="Event Management Team" members={teamDetails.event} />
