@@ -16,22 +16,22 @@
   {
     "id": 3,
     "name": "Sandeep Gudibanda",
-    "designation": "CEO, HealthPIX",
+    "designation": "Co-Founder & CEO, HealthPIX",
     "description": "CEO, HealthPIX.",
     "image": "/speakers/SandeepGudibanda.png"
   },
   {
     "id": 3,
     "name": "Dr. Padmini Panigrahi",
-    "designation": "Founder, Koshala Group, Koshala Darpan(NGO), Philanthropist",
-    "description": "Founder, Koshala Group, Koshala Darpan(NGO), Philanthropist",
+    "designation": "Founder, Koshala Group",
+    "description": "Founder, Koshala Group",
     "image": "/speakers/PadminiPanigrahi.png"
   },
   {
     "id": 4,
     "name": "Bhaskar Reddy Vakka",
-    "designation": "COO, Star health",
-    "description": "COO, Star health.",
+    "designation": "Chief Operating Officer, Star health",
+    "description": "Chief Operating Officer, Star health.",
     "image": "/speakers/BhaskarReddyVakka.png"
   },
   {
