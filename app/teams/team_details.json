@@ -99,34 +99,9 @@
         "image": "/profiles/event/event_grishitha.jpg"
       },
       {
-        "name": "Chandana",
-        "role": "Member",
-        "image": "/profiles/event/event_chandana.jpg"
-      },
-      {
         "name": "Hemanth",
         "role": "Member",
         "image": "/profiles/event/event_hemanth.jpg"
-      },
-      {
-        "name": "Minnu",
-        "role": "Member",
-        "image": "/profiles/event/event_minnu.jpg"
-      },
-      {
-        "name": "Sharon",
-        "role": "Member",
-        "image": "/profiles/event/event_sharon.jpg"
-      },
-      {
-        "name": "Sumanth",
-        "role": "Member",
-        "image": "/profiles/event/event_sumanth.jpg"
-      },
-      {
-        "name": "Yogitha",
-        "role": "Member",
-        "image": "/profiles/event/event_yogitha.jpg"
       }
     ],
     "log": [
