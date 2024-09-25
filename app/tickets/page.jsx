@@ -30,7 +30,7 @@ const page = () => {
           </h1>
           <h2 className="text-2xl font-black">Registration Details</h2>
           <p className="text-xl font-semibold">
-            Ticket Price: Rs. {ticketPrice}/-
+            Ticket Price: Rs. {ticketPrice}/- <span className="text-sm text-red-600">(Lunch Included)</span>
           </p>
           <PaymentCTA />
           <p className="text-justify text-sm md:text-base px-4">

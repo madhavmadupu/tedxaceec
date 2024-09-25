@@ -21,6 +21,13 @@
     "image": "/speakers/SandeepGudibanda.png"
   },
   {
+    "id": 3,
+    "name": "Dr. Padmini Panigrahi",
+    "designation": "Founder Koshala Group | Founder Koshala Darpan(NGO) | Philanthropist",
+    "description": "Founder Koshala Group | Founder Koshala Darpan(NGO) | Philanthropist.",
+    "image": "/speakers/PadminiPanigrahi.png"
+  },
+  {
     "id": 4,
     "name": "Bhaskar Reddy Vakka",
     "designation": "COO of Star health",

@@ -1,0 +1,26 @@
+{
+    "organisers": [
+      {
+        "name": "Sri Shivani Bhavya",
+        "role": "Co-organiser",
+        "image": "/profiles/org/org_shivani.jpg",
+        "alt": "Sri Shivani Bhavya",
+        "link": "/organizers"
+      },
+      {
+        "name": "Praneetha",
+        "role": "Organiser",
+        "image": "/profiles/org/org_praneetha.jpg",
+        "alt": "Praneetha",
+        "link": "/organizers"
+      },
+      {
+        "name": "Jayanth",
+        "role": "Co-organiser",
+        "image": "/profiles/org/org_jayanth.jpg",
+        "alt": "Jayanth",
+        "link": "/organizers"
+      }
+    ]
+  }
+  

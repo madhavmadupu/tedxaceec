@@ -1,0 +1,26 @@
+{
+    "boardMembers": [
+      {
+        "name": "Prof.Y.V.Gopala Krishna Murthy",
+        "role": "General Secretary, Ace Engineering College",
+        "image": "/higher/gksir.png",
+        "alt": "Prof.Y.V.Gopala Krishna Murthy",
+        "link": "/board-members"
+      },
+      {
+        "name": "Y. Raghu Vamshi",
+        "role": "Board Member, YSM Society, Ace Engineering College",
+        "image": "/higher/vamsi.png",
+        "alt": "Y. Raghu Vamshi",
+        "link": "/board-members"
+      },
+      {
+        "name": "Mrs M. Padmavathi",
+        "role": "Joint Secretary, Ace Engineering College",
+        "image": "/higher/padmavathi.png",
+        "alt": "Mrs M. Padmavathi",
+        "link": "/board-members"
+      }
+    ]
+  }
+  
