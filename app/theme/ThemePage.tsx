@@ -61,15 +61,15 @@ const ThemeSection = () => {
           Making a U-turn requires deep self-reflection. It&apos;s about looking at where you&apos;ve been, understanding where you are, and considering where you want to go. U-turns are a form of self-awareness and growth, helping you find clarity essential for knowing when and how to pivot.
         </p>
       </div>
-
-      {/* Call to Action Section */}
-      <div className="flex flex-col justify-center items-center py-[1rem]">
+      <div className="max-w-4xl py-[1rem]">
         <h2 className="py-4 font-black text-2xl text-red-500">What Sets Us Apart?</h2>
-        <p className="leading-7 text-center max-w-2xl">
+        <p className="leading-7 text-justify">
           TEDx ACE Engineering College is not just an event—it&apos;s a movement! A place where U-turns lead to transformation, where ideas pivot and spark the fire of change. Our students are ready to challenge the status quo, and we need your creative energy to fuel their journey. Ready for something unforgettable?
         </p>
-        <h2 className="py-4 font-black text-red-500 text-2xl">Are You a Catalyst for Change?</h2>
-        <p className="leading-7 text-center max-w-2xl">
+      </div>
+      <div className="max-w-4xl py-[1rem]">
+        <h2 className="py-4 font-black text-2xl text-red-500">Are You a Catalyst for Change?</h2>
+        <p className="leading-7 text-justify">
           We’re looking for thought leaders who can push boundaries, challenge assumptions, and ignite curiosity in our students. Let&apos;s break through barriers together and transform roadblocks into stepping stones. Join us as we make TEDx ACE a hotspot of inspiration, where every U-turn sparks a revolution.
         </p>
       </div>

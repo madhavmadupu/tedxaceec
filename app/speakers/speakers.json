@@ -8,10 +8,10 @@
   },
   {
     "id": 2,
-    "name": "Midhula",
-    "designation": "Mivi Co Founder",
-    "description": "Mivi Co Founder.",
-    "image": "/speakers/Midhula.png"
+    "name": "Dr. Aruna Karla",
+    "designation": "Direcor-Obstetrics & Gynaecology CK Birla Hospital",
+    "description": "Direcor-Obstetrics & Gynaecology CK Birla Hospital",
+    "image": "/speakers/ArunaKarla.jpg"
   },
   {
     "id": 3,
@@ -43,20 +43,13 @@
   },
   {
     "id": 7,
-    "name": "Dr. Aruna Karla",
-    "designation": "Direcor-Obstetrics & Gynaecology CK Birla Hospital",
-    "description": "Direcor-Obstetrics & Gynaecology CK Birla Hospital",
-    "image": "/speakers/ArunaKarla.jpg"
-  },
-  {
-    "id": 8,
     "name": "Fahsham Farook",
     "designation": "Productivity Coach",
     "description": "Productivity Coach",
     "image": "/speakers/FahshamFarook.png"
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "Shagun Segan",
     "designation": "Social Media Influencer",
     "description": "Social Media Influencer",
