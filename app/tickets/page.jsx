@@ -7,6 +7,9 @@ import PaymentCTA from '../components/PaymentCTA';
 
 const page = () => {
   const ticketPrice = 350;
+  const totalTickets = 800;
+  const ticketsSold = 425;
+  const progress = (ticketsSold / totalTickets) * 100;
 
   return (
     <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center w-full gap-[2rem] p-[1rem] pt-[7rem] lg:gap-[4rem]">
@@ -30,6 +33,15 @@ const page = () => {
           </h1>
           <h2 className="text-2xl font-black">Registration Details</h2>
           <p className="text-xl font-semibold">Ticket Price: Rs. {ticketPrice}/- <span className="shadow-lg font-bold text-green-400">(Lunch Included)</span></p>
+          <div>
+            <p>Seats Booked: {ticketsSold}/800</p>
+            <div className="relative w-[400px] bg-white/30 h-[1rem] rounded-full">
+              <div
+                className="bg-blue-500 h-[1rem] rounded-full absolute"
+                style={{ width: `${progress}%` }}
+              ></div>
+            </div>
+          </div>
           <PaymentCTA />
           <p className="text-justify text-sm md:text-base px-4">
             Follow us on our socials to get updated.
