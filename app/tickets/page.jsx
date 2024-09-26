@@ -1,15 +1,36 @@
 "use client"
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import PaymentCTA from '../components/PaymentCTA';
 
-const page = () => {
+const Tickets = () => {
   const ticketPrice = 350;
   const totalTickets = 800;
-  const ticketsSold = 425;
+  const initialTicketsSold = 425;
+  // State to manage tickets sold
+  const [ticketsSold, setTicketsSold] = useState(initialTicketsSold);
+
+  // Calculate progress
   const progress = (ticketsSold / totalTickets) * 100;
+
+  // Increment ticketsSold every 1 hour
+  useEffect(() => {
+    const incrementTickets = () => {
+      setTicketsSold((prev) => {
+        if (prev < totalTickets) {
+          return prev + 1; // Increment by 1 ticket every hour
+        } else {
+          return prev; // Stop incrementing when totalTickets are sold
+        }
+      });
+    };
+
+    const interval = setInterval(incrementTickets, 3600000); // 1 hour = 3600000 milliseconds
+
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, [totalTickets]);
 
   return (
     <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center w-full gap-[2rem] p-[1rem] pt-[7rem] lg:gap-[4rem]">
@@ -72,4 +93,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Tickets;

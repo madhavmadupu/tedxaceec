@@ -23,7 +23,7 @@ const SocialFooter = () => {
         <span></span>
         <span></span>
         <span></span>
-        <a href="">
+        <a href="https://www.youtube.com/@aceengcollege">
           <svg
             className="svg"
             xmlns="http://www.w3.org/2000/svg"
